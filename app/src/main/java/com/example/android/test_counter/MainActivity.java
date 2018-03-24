@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Increase the score for Team Stark by 1 point.
      */
-    public void addOneForTeamA(View v) {
-        scoreStark = scoreStark + 1;
+    public void minusOneForTeamA(View v) {
+        scoreStark = scoreStark - 1;
         displayForTeamA(scoreStark);
     }
 
@@ -47,8 +47,8 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Increase the score for Team Targaryn by 1 point.
      */
-    public void addOneForTeamB(View v) {
-        scoreTarg = scoreTarg + 1;
+    public void minusOneForTeamB(View v) {
+        scoreTarg = scoreTarg - 1;
         displayForTeamB(scoreTarg);
     }
 
