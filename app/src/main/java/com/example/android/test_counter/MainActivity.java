@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Decrease the score for Team A by 2 points .
+     * Decrease the score for Team A by 1 point.
      */
     public void minusOneForTeamA(View v) {
         scoreStark = scoreStark - 1;
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Decrease the score for Team Targaryn by 1 point.
+     * Decrease the score for Team B by 1 point.
      */
     public void minusOneForTeamB(View v) {
         scoreTarg = scoreTarg - 1;
