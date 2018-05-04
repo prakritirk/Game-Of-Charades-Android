@@ -1,3 +1,11 @@
+/*
+ * Author Prakriti Rajbhandari
+ *
+ * Project 2 Counter App for Android Basics Nano Degree Program
+ * Counts scores for game of Charades.
+ * Players are given 3 points for acting, 2 points for guessing and Negative 1 for Timeout
+ */
+
 package com.example.android.test_counter;
 
 import android.support.v7.app.AppCompatActivity;
@@ -10,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
 
     // Tracks the score for Team A
     int scoreStark = 0;
-
     // Tracks the score for Team B
     int scoreTarg = 0;
 
@@ -21,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Increase the score for Team Stark by 1 point.
+     * Decrease the score for Team A by 2 points .
      */
     public void minusOneForTeamA(View v) {
         scoreStark = scoreStark - 1;
@@ -45,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Increase the score for Team Targaryn by 1 point.
+     * Decrease the score for Team Targaryn by 1 point.
      */
     public void minusOneForTeamB(View v) {
         scoreTarg = scoreTarg - 1;

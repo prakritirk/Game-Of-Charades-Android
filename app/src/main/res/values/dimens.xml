@@ -2,5 +2,9 @@
 <resources>
     <dimen name="font_size">20sp</dimen>
     <dimen name="score_size">54sp</dimen>
+    <dimen name="margin_top_40dp">40dp</dimen>
+    <dimen name="team_name_padding_16dp">16dp</dimen>
+<dimen name="padding_bottom_54dp">50dp</dimen>
+<dimen name="button_margin_24dp">24dp</dimen>
 
 </resources>

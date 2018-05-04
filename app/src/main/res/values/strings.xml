@@ -2,7 +2,9 @@
     <string name="app_name">Test-Counter</string>
     <string name="teamA">STARK</string>
     <string name="teamB">TARGARYN</string>
-    <string name="actButton">ACT POINTS</string>
-    <string name="guessButton">GUESS POINT</string>
-    <string name="timeOut">time out</string>
+    <string name="actButton">ACTING POINTS</string>
+    <string name="guessButton">GUESSING POINTS</string>
+    <string name="timeOut">TIME OUT</string>
+    <string name="scoreZero">0</string>
+    <string name="reset">RESET</string>
 </resources>
